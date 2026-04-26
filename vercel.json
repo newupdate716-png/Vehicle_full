@@ -1,7 +1,8 @@
 {
-  "version": 2,
   "rewrites": [
-    { "source": "/vehicle=(.*)", "destination": "/api/index?reg_no=$1" },
-    { "source": "/(.*)", "destination": "/api/index" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
   ]
 }
